@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace Procurement
 {
-    public partial class Form1 : Form
+    public partial class createOrder : Form
     {
-        public Form1()
+        public createOrder()
         {
             InitializeComponent();
         }
+
     }
 }
