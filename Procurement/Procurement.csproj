@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Procurement.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,10 +55,34 @@
     <Compile Include="CreateOrder.Designer.cs">
       <DependentUpon>CreateOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails.Designer.cs">
+      <DependentUpon>OrderDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDetails1.Designer.cs">
+      <DependentUpon>OrderDetails1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseView.Designer.cs">
+      <DependentUpon>PurchaseView.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CreateOrder.resx">
       <DependentUpon>CreateOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails.resx">
+      <DependentUpon>OrderDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetails1.resx">
+      <DependentUpon>OrderDetails1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +93,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PurchaseView.resx">
+      <DependentUpon>PurchaseView.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

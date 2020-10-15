@@ -16,7 +16,7 @@ namespace Procurement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new createOrder());
+            Application.Run(new OrderDetails1());
         }
     }
 }
